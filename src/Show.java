@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Show {
     protected String title;
-    private int duration;
-    private Person Director;
-    private ArrayList<Actor> listOfActors = new ArrayList<>();
+    protected int duration;
+    protected Director Director;
+    protected ArrayList<Actor> listOfActors = new ArrayList<>();
 
     public ArrayList<Actor> getActors() {
         return listOfActors;
@@ -12,7 +12,7 @@ public class Show {
 
 
     // Конструктор с параметрами
-    public Show(String title, int duration, Person director) {
+    public Show(String title, int duration, Director director) {
         this.title = title;
         this.duration = duration;
         this.Director = director;

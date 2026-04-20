@@ -1,7 +1,7 @@
 public class Person {
     protected String name;
     protected String surname;
-    private GenderOfPeople gender;
+    protected GenderOfPeople gender;
 
     public GenderOfPeople getGender() {
         return gender;
